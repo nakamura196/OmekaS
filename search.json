@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "github.html",
+    "href": "github.html",
+    "title": "github",
+    "section": "",
+    "text": "source\n\nGitHubApiClient\n\n GitHubApiClient ()\n\nInitialize self. See help(type(self)) for accurate signature.",
+    "crumbs": [
+      "github"
+    ]
+  },
+  {
+    "objectID": "notion.html",
+    "href": "notion.html",
+    "title": "notion",
+    "section": "",
+    "text": "source\n\nNotionApiClient\n\n NotionApiClient ()\n\nInitialize self. See help(type(self)) for accurate signature.",
+    "crumbs": [
+      "notion"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "OmekaS",
+    "section": "",
+    "text": "Omeka Sのテーマの一覧を視覚的に確認するページを作成する。",
+    "crumbs": [
+      "OmekaS"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "OmekaS",
+    "section": "Install",
+    "text": "Install\npip install git+https://github.com/nakamura196/OmekaS.git",
+    "crumbs": [
+      "OmekaS"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "OmekaS",
+    "section": "How to use",
+    "text": "How to use\nPlease create a .env file in the root directory and write the following contents.\ntoken=&lt;GitHub Personal Access Token&gt;\nnotion_api_key=&lt;Notion API Key&gt;\n\nGitHubApiClient.run()\nNotionApiClient.run()\n\n100%|██████████| 89/89 [01:15&lt;00:00,  1.17it/s]\n100%|██████████| 80/80 [01:24&lt;00:00,  1.05s/it]",
+    "crumbs": [
+      "OmekaS"
+    ]
+  }
+]
