@@ -78,15 +78,24 @@ class GitHubApiClient:
         else:
             return None
         
-    def get_metadata(self, api_repo):
+    def get_metadata(self, api_repo, verbose=False):
         token = self.token
+
+        verbose = False
+
+        if verbose:
+            print(f'Fetching metadata for {api_repo}')
+
         response = requests.get(f'{api_repo}',
-                                headers={'Authorization': f'token {token}'})
+            headers={'Authorization': f'token {token}'})
 
         if response.status_code == 500:
             return None
         
         data = response.json()
+
+        if verbose:
+            print(data)
 
         if "message" in data and data["message"] == "Not Found":
             return None
@@ -98,7 +107,10 @@ class GitHubApiClient:
             
             last_updated = data['updated_at']
         
-        stars = data['stargazers_count']
+        stars = None
+
+        if "stargazers_count" in data:
+            stars = data['stargazers_count']
 
         name = data['name']
 
