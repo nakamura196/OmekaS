@@ -1,0 +1,5 @@
+nbdev
+pandas
+python-dotenv
+requests
+tqdm

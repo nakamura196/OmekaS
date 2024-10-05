@@ -1,0 +1,612 @@
+[
+    {
+        "name": "1972_theme_omekaS",
+        "last_updated": "2022-01-04T09:48:25Z",
+        "stars": 0,
+        "url": "https://github.com/marlara/1972_theme_omekaS",
+        "description": "A theme based on \"The Daily\" in Omeka S, for the digital exhibition \"1972. Moda, storia e design\"",
+        "theme_url": "https://raw.githubusercontent.com/marlara/1972_theme_omekaS/master/theme.jpg"
+    },
+    {
+        "name": "AgileBaseOmekaTheme",
+        "last_updated": "2023-12-01T11:51:13Z",
+        "stars": 2,
+        "url": "https://github.com/agile-humanities/AgileBaseOmekaTheme",
+        "description": null
+    },
+    {
+        "name": "ahp-theme",
+        "last_updated": "2018-08-12T22:20:08Z",
+        "stars": 0,
+        "url": "https://github.com/pols12/ahp-theme",
+        "description": "Omeka-S theme for e-HP website."
+    },
+    {
+        "name": "Omeka-S-Akrep-Theme",
+        "last_updated": "2023-09-20T11:10:23Z",
+        "stars": 0,
+        "url": "https://github.com/procesaur/Omeka-S-Akrep-Theme",
+        "description": "Theme for Omeka-S-based advanced active repositories",
+        "theme_url": "https://raw.githubusercontent.com/procesaur/Omeka-S-Akrep-Theme/main/theme.jpg"
+    },
+    {
+        "name": "omeka-s-theme",
+        "last_updated": "2023-12-18T03:47:05Z",
+        "stars": 1,
+        "url": "https://github.com/religious-ecologies/omeka-s-theme",
+        "description": null
+    },
+    {
+        "name": "anwuvbeo-theme",
+        "last_updated": "2022-03-16T01:29:59Z",
+        "stars": 0,
+        "url": "https://github.com/IRISCenter/anwuvbeo-theme",
+        "description": "An Omeka S theme for the Schaefer Edoid Archive",
+        "theme_url": "https://raw.githubusercontent.com/IRISCenter/anwuvbeo-theme/main/theme.jpg"
+    },
+    {
+        "name": "appalachian-trails",
+        "last_updated": "2023-05-18T00:39:45Z",
+        "stars": 0,
+        "url": "https://github.com/chnm/appalachian-trails",
+        "description": "Omeka S theme for All the Appalachian Trails"
+    },
+    {
+        "name": "bcda-child-theme",
+        "last_updated": "2023-11-02T22:52:10Z",
+        "stars": 1,
+        "url": "https://github.com/Omeka-External/bcda-child-theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/Omeka-External/bcda-child-theme/master/theme.jpg"
+    },
+    {
+        "name": "bcda-theme",
+        "last_updated": "2023-11-02T22:52:13Z",
+        "stars": 2,
+        "url": "https://github.com/Omeka-External/bcda-theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/Omeka-External/bcda-theme/master/theme.jpg"
+    },
+    {
+        "name": "bookshelf",
+        "last_updated": "2023-06-07T13:54:46Z",
+        "stars": 6,
+        "url": "https://github.com/indic-archive/bookshelf",
+        "description": "Bookshelf is a theme for Omeka S",
+        "theme_url": "https://raw.githubusercontent.com/indic-archive/bookshelf/master/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-Bootstrap5",
+        "last_updated": "2022-07-21T13:44:19Z",
+        "stars": 2,
+        "url": "https://github.com/ldasjp8/Omeka-S-theme-Bootstrap5",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/ldasjp8/Omeka-S-theme-Bootstrap5/main/theme.jpg"
+    },
+    {
+        "name": "omekas-bootstrap-theme",
+        "last_updated": "2022-10-03T01:15:25Z",
+        "stars": 1,
+        "url": "https://github.com/medeopolis/omekas-bootstrap-theme",
+        "description": "Omeka S theme based on bootstrap 3.3.7",
+        "theme_url": "https://raw.githubusercontent.com/medeopolis/omekas-bootstrap-theme/master/theme.jpg"
+    },
+    {
+        "name": "byui-spc",
+        "last_updated": "2020-05-17T04:40:34Z",
+        "stars": 0,
+        "url": "https://github.com/jonfackrell/byui-spc",
+        "description": "A theme for Omeka S",
+        "theme_url": "https://raw.githubusercontent.com/jonfackrell/byui-spc/master/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-CartoAffect",
+        "last_updated": "2022-07-25T06:12:07Z",
+        "stars": 0,
+        "url": "https://github.com/samszo/Omeka-S-theme-CartoAffect",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/samszo/Omeka-S-theme-CartoAffect/master/theme.jpg"
+    },
+    {
+        "name": "omeka-s-dlll-theme",
+        "last_updated": "2023-01-28T13:00:46Z",
+        "stars": 0,
+        "url": "https://github.com/billxu0521/omeka-s-dlll-theme",
+        "description": "omeka s主題",
+        "theme_url": "https://raw.githubusercontent.com/billxu0521/omeka-s-dlll-theme/master/theme.jpg"
+    },
+    {
+        "name": "OmekaS-Theme-CCSTWlib-Malaysia",
+        "last_updated": "2020-11-03T06:06:55Z",
+        "stars": 0,
+        "url": "https://github.com/billxu0521/OmekaS-Theme-CCSTWlib-Malaysia",
+        "description": "CCSTWlib-Malaysia Theme for OmekaS",
+        "theme_url": "https://raw.githubusercontent.com/billxu0521/OmekaS-Theme-CCSTWlib-Malaysia/master/theme.jpg"
+    },
+    {
+        "name": "centerrowLoyola150",
+        "last_updated": "2022-04-29T14:20:08Z",
+        "stars": 0,
+        "url": "https://github.com/zmstella/centerrowLoyola150",
+        "description": "Files/documentation for the Then and Now: 150 at Loyola University Chicago development site ('centerrow' child theme)",
+        "theme_url": "https://raw.githubusercontent.com/zmstella/centerrowLoyola150/main/theme.jpg"
+    },
+    {
+        "name": "centerrow",
+        "last_updated": "2023-01-18T20:19:39Z",
+        "stars": 3,
+        "url": "https://github.com/omeka-s-themes/centerrow",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/centerrow/master/theme.jpg"
+    },
+    {
+        "name": "centerrow-temple",
+        "last_updated": "2023-02-20T13:22:45Z",
+        "stars": 0,
+        "url": "https://github.com/tulibraries/centerrow-temple",
+        "description": "Customized Omeka-S theme based on CenterRow by the Omeka Team",
+        "theme_url": "https://raw.githubusercontent.com/tulibraries/centerrow-temple/main/theme.jpg"
+    },
+    {
+        "name": "omeka-s-registry",
+        "last_updated": "2021-06-24T12:59:12Z",
+        "stars": 0,
+        "url": "https://github.com/clirdlf/omeka-s-registry",
+        "description": null
+    },
+    {
+        "name": "collecting-these-times-spoke",
+        "last_updated": "2021-02-24T14:53:20Z",
+        "stars": 0,
+        "url": "https://github.com/chnm/collecting-these-times-spoke",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/chnm/collecting-these-times-spoke/main/theme.jpg"
+    },
+    {
+        "name": "cozy",
+        "last_updated": "2021-11-22T16:39:50Z",
+        "stars": 1,
+        "url": "https://github.com/omeka-s-themes/cozy",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/cozy/master/theme.jpg"
+    },
+    {
+        "name": "basic-dartmouth-theme",
+        "last_updated": "2023-05-21T09:14:08Z",
+        "stars": 1,
+        "url": "https://github.com/dartmouth-dltg/basic-dartmouth-theme",
+        "description": "A very basic Dartmouth Library Omeka-S theme",
+        "theme_url": "https://raw.githubusercontent.com/dartmouth-dltg/basic-dartmouth-theme/main/theme.jpg"
+    },
+    {
+        "name": "historical-accountability",
+        "last_updated": "2022-11-17T12:44:50Z",
+        "stars": 2,
+        "url": "https://github.com/dartmouth-dltg/historical-accountability",
+        "description": "Custom Omeka-S theme for Dartmouth Library's Historical Accountability Project",
+        "theme_url": "https://raw.githubusercontent.com/dartmouth-dltg/historical-accountability/main/theme.jpg"
+    },
+    {
+        "name": "OmekaS-Marriott-Library-Default-Theme",
+        "last_updated": "2023-05-29T20:57:38Z",
+        "stars": 1,
+        "url": "https://github.com/marriott-library/OmekaS-Marriott-Library-Default-Theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/marriott-library/OmekaS-Marriott-Library-Default-Theme/master/theme.jpg"
+    },
+    {
+        "name": "dharc-omeka-s-theme",
+        "last_updated": "2022-11-24T14:52:56Z",
+        "stars": 1,
+        "url": "https://github.com/dharc-org/dharc-omeka-s-theme",
+        "description": "Theme for Omeka-s",
+        "theme_url": "https://raw.githubusercontent.com/dharc-org/dharc-omeka-s-theme/master/theme.jpg"
+    },
+    {
+        "name": "digitalcollecting",
+        "last_updated": "2020-11-02T23:28:29Z",
+        "stars": 1,
+        "url": "https://github.com/scholarslab/digitalcollecting",
+        "description": "A theme for Omeka S",
+        "theme_url": "https://raw.githubusercontent.com/scholarslab/digitalcollecting/master/theme.jpg"
+    },
+    {
+        "name": "omeka-s-theme-DigitalMuret",
+        "last_updated": "2021-08-10T20:55:51Z",
+        "stars": 3,
+        "url": "https://github.com/INHAParis/omeka-s-theme-DigitalMuret",
+        "description": "DigitalMuret theme for Omeka S",
+        "theme_url": "https://raw.githubusercontent.com/INHAParis/omeka-s-theme-DigitalMuret/master/theme.jpg"
+    },
+    {
+        "name": "dlme-omeka-s-theme",
+        "last_updated": "2021-09-02T13:40:02Z",
+        "stars": 0,
+        "url": "https://github.com/waynegraham/dlme-omeka-s-theme",
+        "description": "Omeka S theme for DLME Registry",
+        "theme_url": "https://raw.githubusercontent.com/waynegraham/dlme-omeka-s-theme/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-docarchive",
+        "last_updated": "2023-03-30T04:44:26Z",
+        "stars": 0,
+        "url": "https://github.com/utarchives/Omeka-S-theme-docarchive",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/utarchives/Omeka-S-theme-docarchive/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-EDISEM",
+        "last_updated": "2022-01-30T09:06:10Z",
+        "stars": 0,
+        "url": "https://github.com/samszo/Omeka-S-theme-EDISEM",
+        "description": "EDItorialisation de SEMinaire",
+        "theme_url": "https://raw.githubusercontent.com/samszo/Omeka-S-theme-EDISEM/main/theme.jpg"
+    },
+    {
+        "name": "exhibits-omeka-s-theme",
+        "last_updated": "2023-01-08T05:48:17Z",
+        "stars": 3,
+        "url": "https://github.com/dharc-org/exhibits-omeka-s-theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/dharc-org/exhibits-omeka-s-theme/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-ExploreGrid",
+        "last_updated": "2022-03-31T18:11:53Z",
+        "stars": 2,
+        "url": "https://github.com/hxsllc/Omeka-S-theme-ExploreGrid",
+        "description": "A responsive theme for Omeka-S v3.x with full configuration controls",
+        "theme_url": "https://raw.githubusercontent.com/hxsllc/Omeka-S-theme-ExploreGrid/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-FeuilletNumerique",
+        "last_updated": "2021-11-19T03:39:09Z",
+        "stars": 0,
+        "url": "https://github.com/samszo/Omeka-S-theme-FeuilletNumerique",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/samszo/Omeka-S-theme-FeuilletNumerique/main/theme.jpg"
+    },
+    {
+        "name": "fit-aod",
+        "last_updated": "2023-03-17T19:49:54Z",
+        "stars": 0,
+        "url": "https://github.com/fitnycdigitalinitiatives/fit-aod",
+        "description": "Omeka-S theme for Archive on Demand",
+        "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-aod/main/theme.jpg"
+    },
+    {
+        "name": "fit-fc",
+        "last_updated": "2023-08-15T19:24:20Z",
+        "stars": 0,
+        "url": "https://github.com/fitnycdigitalinitiatives/fit-fc",
+        "description": "Fashion Calendar theme for omeka-s",
+        "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-fc/main/theme.jpg"
+    },
+    {
+        "name": "fit-ir",
+        "last_updated": "2022-04-19T14:43:13Z",
+        "stars": 0,
+        "url": "https://github.com/fitnycdigitalinitiatives/fit-ir",
+        "description": "Omeka-S theme for the FIT Institutional Repository. Built upon Bootstrap framework. Works with FITModule, Relators Module, and FIT-forked Solr modules, and FIT-forked MetadataBrowse.",
+        "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-ir/main/theme.jpg"
+    },
+    {
+        "name": "dcdm",
+        "last_updated": "2023-05-18T00:42:22Z",
+        "stars": 0,
+        "url": "https://github.com/chnm/dcdm",
+        "description": "Omeka S theme for DC Digital Museum"
+    },
+    {
+        "name": "manitos-theme",
+        "last_updated": "2021-02-13T18:58:21Z",
+        "stars": 0,
+        "url": "https://github.com/kalbers/manitos-theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/kalbers/manitos-theme/main/theme.jpg"
+    },
+    {
+        "name": "foundation",
+        "last_updated": "2024-01-02T20:53:51Z",
+        "stars": 7,
+        "url": "https://github.com/omeka-s-themes/foundation",
+        "description": "An Omeka S theme based off ZURB Foundation",
+        "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/master/theme.jpg"
+    },
+    {
+        "name": "freedom",
+        "last_updated": "2023-06-29T16:37:34Z",
+        "stars": 1,
+        "url": "https://github.com/omeka-s-themes/freedom",
+        "description": "An Omeka S Theme",
+        "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/freedom/master/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-GenStory",
+        "last_updated": "2022-03-03T08:12:07Z",
+        "stars": 0,
+        "url": "https://github.com/samszo/Omeka-S-theme-GenStory",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/samszo/Omeka-S-theme-GenStory/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-GentGemapt",
+        "last_updated": "2023-03-02T12:32:13Z",
+        "stars": 0,
+        "url": "https://github.com/GhentCDH/Omeka-S-theme-GentGemapt",
+        "description": null
+    },
+    {
+        "name": "omeka-s-gpppoc-theme",
+        "last_updated": "2018-01-18T08:49:15Z",
+        "stars": 1,
+        "url": "https://github.com/kingsdigitallab/omeka-s-gpppoc-theme",
+        "description": null
+    },
+    {
+        "name": "hearing-the-americas",
+        "last_updated": "2023-05-18T00:41:50Z",
+        "stars": 0,
+        "url": "https://github.com/chnm/hearing-the-americas",
+        "description": "Omeka S theme for Hearing the Americas"
+    },
+    {
+        "name": "Omeka-S-theme-JDC",
+        "last_updated": "2021-10-24T06:54:38Z",
+        "stars": 0,
+        "url": "https://github.com/samszo/Omeka-S-theme-JDC",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/samszo/Omeka-S-theme-JDC/main/theme.jpg"
+    },
+    {
+        "name": "ajotpy_theme",
+        "last_updated": "2023-07-26T17:01:15Z",
+        "stars": 1,
+        "url": "https://github.com/kylelarkin/ajotpy_theme",
+        "description": "A Journal of the Plague Year Custom Omeka S Theme",
+        "theme_url": "https://raw.githubusercontent.com/kylelarkin/ajotpy_theme/master/theme.jpg"
+    },
+    {
+        "name": "ksharp",
+        "last_updated": "2022-01-10T15:12:42Z",
+        "stars": 0,
+        "url": "https://github.com/UIUCLibrary/ksharp",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/UIUCLibrary/ksharp/main/theme.jpg"
+    },
+    {
+        "name": "legacies-hub",
+        "last_updated": "2022-04-28T19:05:59Z",
+        "stars": 0,
+        "url": "https://github.com/Omeka-External/legacies-hub",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/Omeka-External/legacies-hub/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-Bootstrap-Theme",
+        "last_updated": "2022-11-07T15:11:07Z",
+        "stars": 2,
+        "url": "https://github.com/Libnamic/Omeka-S-Bootstrap-Theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/Libnamic/Omeka-S-Bootstrap-Theme/master/theme.jpg"
+    },
+    {
+        "name": "Omekatheme",
+        "last_updated": "2021-04-09T12:12:28Z",
+        "stars": 1,
+        "url": "https://github.com/Libnamic/Omekatheme",
+        "description": "theme for Omeka S ",
+        "theme_url": "https://raw.githubusercontent.com/Libnamic/Omekatheme/master/theme.jpg"
+    },
+    {
+        "name": "legacies-spoke",
+        "last_updated": "2022-03-22T18:16:55Z",
+        "stars": 0,
+        "url": "https://github.com/Omeka-External/legacies-spoke",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/Omeka-External/legacies-spoke/main/theme.jpg"
+    },
+    {
+        "name": "StudycollectionOmekaTheme",
+        "last_updated": "2021-11-26T19:53:20Z",
+        "stars": 0,
+        "url": "https://github.com/tobiashendrickx/StudycollectionOmekaTheme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/tobiashendrickx/StudycollectionOmekaTheme/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-IIP",
+        "last_updated": "2021-09-29T00:09:14Z",
+        "stars": 2,
+        "url": "https://github.com/hxsllc/Omeka-S-theme-IIP",
+        "description": "Omeka-S theme built for International Institute for Peace, Rutgers University",
+        "theme_url": "https://raw.githubusercontent.com/hxsllc/Omeka-S-theme-IIP/main/theme.jpg"
+    },
+    {
+        "name": "omeka-s-theme-starterkit",
+        "last_updated": "2022-02-25T15:47:03Z",
+        "stars": 0,
+        "url": "https://github.com/sinanatra/omeka-s-theme-starterkit",
+        "description": "This repo is my own starterkit for Omeka S projects"
+    },
+    {
+        "name": "onthesegrounds-theme",
+        "last_updated": "2023-12-11T20:41:20Z",
+        "stars": 0,
+        "url": "https://github.com/kimisgold/onthesegrounds-theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/kimisgold/onthesegrounds-theme/master/theme.jpg"
+    },
+    {
+        "name": "papers",
+        "last_updated": "2022-02-17T20:44:07Z",
+        "stars": 0,
+        "url": "https://github.com/omeka-s-themes/papers",
+        "description": "An Omeka S theme based on the Papers of the War Department.",
+        "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/papers/master/theme.jpg"
+    },
+    {
+        "name": "pwd-omeka-s",
+        "last_updated": "2023-05-18T00:40:08Z",
+        "stars": 0,
+        "url": "https://github.com/chnm/pwd-omeka-s",
+        "description": "Theme for Papers of the War Department"
+    },
+    {
+        "name": "patrimoniouja",
+        "last_updated": "2021-10-25T17:22:29Z",
+        "stars": 0,
+        "url": "https://github.com/alfonsomontejo/patrimoniouja",
+        "description": "Patrimonio cultural de la Universidad de Jaén (tema para Omeka S 3.x)",
+        "theme_url": "https://raw.githubusercontent.com/alfonsomontejo/patrimoniouja/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-PolemikaProto",
+        "last_updated": "2021-12-06T23:22:05Z",
+        "stars": 0,
+        "url": "https://github.com/samszo/Omeka-S-theme-PolemikaProto",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/samszo/Omeka-S-theme-PolemikaProto/main/theme.jpg"
+    },
+    {
+        "name": "omeka-s-theme-psl",
+        "last_updated": "2022-09-28T06:05:36Z",
+        "stars": 0,
+        "url": "https://github.com/biblibre/omeka-s-theme-psl",
+        "description": "PSL theme for Omeka S"
+    },
+    {
+        "name": "Omeka-S-theme-psl",
+        "last_updated": "2021-09-29T00:09:27Z",
+        "stars": 3,
+        "url": "https://github.com/Daniel-KM/Omeka-S-theme-psl",
+        "description": "PSL theme for Omeka S",
+        "theme_url": "https://raw.githubusercontent.com/Daniel-KM/Omeka-S-theme-psl/master/theme.jpg"
+    },
+    {
+        "name": "reanimated",
+        "last_updated": "2020-06-11T08:39:05Z",
+        "stars": 0,
+        "url": "https://github.com/amoe/reanimated",
+        "description": null
+    },
+    {
+        "name": "omeka-s-theme-slavery-images",
+        "last_updated": "2020-12-10T20:24:58Z",
+        "stars": 1,
+        "url": "https://github.com/SlaveryImages/omeka-s-theme-slavery-images",
+        "description": "Omeka S theme for SlaveryImages.org",
+        "theme_url": "https://raw.githubusercontent.com/SlaveryImages/omeka-s-theme-slavery-images/master/theme.jpg"
+    },
+    {
+        "name": "speakout",
+        "last_updated": "2022-06-09T11:04:27Z",
+        "stars": 3,
+        "url": "https://github.com/dartmouth-dltg/speakout",
+        "description": "Omeka-S theme for Dartmouth College Library's SpeakOut project",
+        "theme_url": "https://raw.githubusercontent.com/dartmouth-dltg/speakout/main/theme.jpg"
+    },
+    {
+        "name": "still-theme",
+        "last_updated": "2023-03-16T19:35:46Z",
+        "stars": 0,
+        "url": "https://github.com/tulibraries/still-theme",
+        "description": "William Still Family Site",
+        "theme_url": "https://raw.githubusercontent.com/tulibraries/still-theme/main/theme.jpg"
+    },
+    {
+        "name": "storybooth",
+        "last_updated": "2022-11-02T16:02:20Z",
+        "stars": 0,
+        "url": "https://github.com/dartmouth-dltg/storybooth",
+        "description": "An Omeka-S theme for a bespoke Dartmouth College site",
+        "theme_url": "https://raw.githubusercontent.com/dartmouth-dltg/storybooth/main/theme.jpg"
+    },
+    {
+        "name": "mitlibraries-theme-omeka",
+        "last_updated": "2023-10-03T18:01:29Z",
+        "stars": 0,
+        "url": "https://github.com/MITLibraries/mitlibraries-theme-omeka",
+        "description": "A theme for Omeka S",
+        "theme_url": "https://raw.githubusercontent.com/MITLibraries/mitlibraries-theme-omeka/main/theme.jpg"
+    },
+    {
+        "name": "thedaily",
+        "last_updated": "2023-12-07T17:20:49Z",
+        "stars": 4,
+        "url": "https://github.com/omeka-s-themes/thedaily",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thedaily/master/theme.jpg"
+    },
+    {
+        "name": "UMFA-OmekaS-Theme",
+        "last_updated": "2023-05-29T20:57:30Z",
+        "stars": 1,
+        "url": "https://github.com/marriott-library/UMFA-OmekaS-Theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/marriott-library/UMFA-OmekaS-Theme/main/theme.jpg"
+    },
+    {
+        "name": "omekas-theme-um",
+        "last_updated": "2023-03-20T16:30:27Z",
+        "stars": 0,
+        "url": "https://github.com/MaastrichtU-Library/omekas-theme-um",
+        "description": "Omeka S theme Maastricht University",
+        "theme_url": "https://raw.githubusercontent.com/MaastrichtU-Library/omekas-theme-um/master/theme.jpg"
+    },
+    {
+        "name": "UO-Library-Omeka-S-Theme-Dark",
+        "last_updated": "2023-05-02T21:31:31Z",
+        "stars": 0,
+        "url": "https://github.com/uoregon-libraries/UO-Library-Omeka-S-Theme-Dark",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/uoregon-libraries/UO-Library-Omeka-S-Theme-Dark/main/theme.jpg"
+    },
+    {
+        "name": "UO-Library-Omeka-S-Theme",
+        "last_updated": "2023-05-03T23:14:16Z",
+        "stars": 2,
+        "url": "https://github.com/uoregon-libraries/UO-Library-Omeka-S-Theme",
+        "description": "A theme for Omeka S based on the default theme",
+        "theme_url": "https://raw.githubusercontent.com/uoregon-libraries/UO-Library-Omeka-S-Theme/main/theme.jpg"
+    },
+    {
+        "name": "Omeka-S-theme-UOH",
+        "last_updated": "2021-07-29T08:05:58Z",
+        "stars": 0,
+        "url": "https://github.com/samszo/Omeka-S-theme-UOH",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/samszo/Omeka-S-theme-UOH/main/theme.jpg"
+    },
+    {
+        "name": "exhibits-omeka-s-theme",
+        "last_updated": "2021-11-16T09:17:30Z",
+        "stars": 0,
+        "url": "https://github.com/katarinalucic16/exhibits-omeka-s-theme",
+        "description": null,
+        "theme_url": "https://raw.githubusercontent.com/katarinalucic16/exhibits-omeka-s-theme/main/theme.jpg"
+    },
+    {
+        "name": "themeX",
+        "last_updated": "2022-11-03T16:13:29Z",
+        "stars": 0,
+        "url": "https://github.com/alexdryden/themeX",
+        "description": "Omeka S theme for the BBIP project"
+    },
+    {
+        "name": "yul-omeka-s-topnav",
+        "last_updated": "2021-03-01T22:10:48Z",
+        "stars": 0,
+        "url": "https://github.com/yalelibrary/yul-omeka-s-topnav",
+        "description": "Omeka S theme",
+        "theme_url": "https://raw.githubusercontent.com/yalelibrary/yul-omeka-s-topnav/main/theme.jpg"
+    },
+    {
+        "name": "omeka-s-theme-yoruba-diaspora",
+        "last_updated": "2021-03-23T16:02:27Z",
+        "stars": 0,
+        "url": "https://github.com/SlaveryImages/omeka-s-theme-yoruba-diaspora",
+        "description": "Omeka S theme for Yoruba Diaspora Site",
+        "theme_url": "https://raw.githubusercontent.com/SlaveryImages/omeka-s-theme-yoruba-diaspora/master/theme.jpg"
+    }
+]

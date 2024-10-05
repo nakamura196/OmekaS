@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "OmekaS"
+  site-url: "https://nakamura196.github.io/OmekaS"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/nakamura196/OmekaS"
