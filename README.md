@@ -22,9 +22,15 @@ notion_api_key=<Notion API Key>
 ```
 
 ``` python
+from OmekaS.github import GitHubApiClient
+from OmekaS.notion import NotionApiClient
+```
+
+      0%|          | 0/98 [00:00<?, ?it/s]
+
+    KeyError: 'name'
+
+``` python
 GitHubApiClient.run()
 NotionApiClient.run()
 ```
-
-    100%|██████████| 89/89 [01:15<00:00,  1.17it/s]
-    100%|██████████| 80/80 [01:24<00:00,  1.05s/it]
