@@ -97,6 +97,8 @@ celerybeat-schedule
 
 # dotenv
 .env
+.env.act
+.secrets
 
 # virtualenv
 .venv

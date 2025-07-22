@@ -1,0 +1,53 @@
+name: Run Jupyter Notebook
+
+on:
+  schedule:
+    # 毎日日本時間の朝9時に実行 (UTC 0:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 手動実行も可能にする
+
+jobs:
+  run-notebook:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install jupyter nbconvert
+        pip install -e .
+    
+    - name: Convert and run notebook
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+      run: |
+        # Jupyterノートブックを直接実行（進捗表示付き）
+        jupyter nbconvert --to notebook --execute src/01_demo.ipynb --output 01_demo_executed.ipynb \
+          --ExecutePreprocessor.timeout=600 \
+          --ExecutePreprocessor.kernel_name=python3 \
+          --ExecutePreprocessor.allow_errors=False \
+          --debug
+    
+    - name: Upload executed notebook
+      uses: actions/upload-artifact@v4
+      if: ${{ !env.ACT }}  # actで実行している場合はスキップ
+      with:
+        name: executed-notebook
+        path: src/01_demo_executed.ipynb
+    
+    - name: Display execution result (for act)
+      if: ${{ env.ACT }}  # actで実行している場合のみ
+      run: |
+        echo "Notebook executed successfully!"
+        echo "Output file: src/01_demo_executed.ipynb"
+        ls -la src/

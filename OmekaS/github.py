@@ -20,7 +20,7 @@ class GitHubApiClient:
         # .envファイルの内容を読み込見込む
         load_dotenv(override=True)
 
-        token = os.environ["token"]
+        token = os.environ["GITHUB_TOKEN"]
 
         self.token = token
         # pass

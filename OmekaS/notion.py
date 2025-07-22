@@ -18,7 +18,7 @@ class NotionApiClient:
         # .envファイルの内容を読み込見込む
         load_dotenv(override=True)
 
-        api_key = os.environ["notion_api_key"]
+        api_key = os.environ["NOTION_API_KEY"]
 
         self.api_key = api_key
 
