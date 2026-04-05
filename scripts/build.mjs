@@ -9,9 +9,15 @@ const TOKEN = process.env.GITHUB_TOKEN;
 const CSV_URL = 'https://raw.githubusercontent.com/Daniel-KM/UpgradeToOmekaS/master/_data/omeka_s_themes.csv';
 const OUT_DIR = 'docs';
 const SITE_URL = 'https://nakamura196.github.io/OmekaS/';
-const SITE_TITLE = 'Omeka S Themes';
-const SITE_DESCRIPTION_JA = 'GitHub 上で公開されている Omeka S テーマの一覧';
+const SITE_HEADING = 'Omeka S Themes';
+const SITE_TITLE = 'Omeka S Themes — GitHubで公開されているOmeka Sテーマのビジュアルカタログ';
 const SITE_DESCRIPTION_EN = 'A visual catalog of Omeka S themes hosted on GitHub.';
+
+function buildDescription(themes) {
+  const total = themes.length;
+  const advanced = themes.filter((t) => t.has_advanced_search).length;
+  return `GitHub上で公開されている${total}件超のOmeka Sテーマをビジュアル付きで一覧できるカタログサイトです。サムネイル・スター数・更新日・説明文を確認でき、名前/オーナー検索、ソート、高度検索対応テーマ(${advanced}件)での絞り込みに対応。毎日自動更新。`;
+}
 const CONCURRENCY = Number(process.env.CONCURRENCY || 5);
 const MAX_RETRIES = 4;
 const USER_AGENT = 'omeka-s-themes-builder (+https://github.com/nakamura196/OmekaS)';
@@ -187,8 +193,12 @@ function renderOgpSvg(themeCount, advancedCount) {
     <text x="60" y="300" font-size="96" font-weight="800" letter-spacing="-2">Omeka S</text>
     <text x="60" y="400" font-size="96" font-weight="800" letter-spacing="-2">Themes</text>
     <text x="60" y="470" font-size="34" font-weight="500" opacity="0.9">${themeCount} themes · ${advancedCount} with advanced search</text>
-    <text x="60" y="570" font-size="26" opacity="0.75">nakamura196.github.io/OmekaS</text>
   </g>
+  <g>
+    <rect x="60" y="510" width="360" height="72" rx="36" fill="#ffffff"/>
+    <text x="240" y="558" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0969da">Explore the catalog →</text>
+  </g>
+  <text x="1140" y="600" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" opacity="0.7">nakamura196.github.io/OmekaS</text>
 </svg>`;
 }
 
@@ -206,6 +216,7 @@ async function writeOgpImage(themes) {
 // ---------- template ----------
 
 function renderHtml(themes, builtAt) {
+  const description = buildDescription(themes);
   // Client-side template literals below are escaped as \${...} so the outer
   // template literal here does not try to evaluate them at build time.
   const dataJson = JSON.stringify(themes).replace(/</g, '\\u003c');
@@ -215,7 +226,7 @@ function renderHtml(themes, builtAt) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${SITE_TITLE}</title>
-<meta name="description" content="${SITE_DESCRIPTION_JA}">
+<meta name="description" content="${description}">
 <link rel="canonical" href="${SITE_URL}">
 
 <!-- Favicon -->
@@ -225,7 +236,7 @@ function renderHtml(themes, builtAt) {
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${SITE_TITLE}">
 <meta property="og:title" content="${SITE_TITLE}">
-<meta property="og:description" content="${SITE_DESCRIPTION_JA}">
+<meta property="og:description" content="${description}">
 <meta property="og:url" content="${SITE_URL}">
 <meta property="og:image" content="${SITE_URL}ogp.png">
 <meta property="og:image:width" content="1200">
@@ -236,7 +247,7 @@ function renderHtml(themes, builtAt) {
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${SITE_TITLE}">
-<meta name="twitter:description" content="${SITE_DESCRIPTION_JA}">
+<meta name="twitter:description" content="${description}">
 <meta name="twitter:image" content="${SITE_URL}ogp.png">
 <meta name="twitter:image:alt" content="${SITE_DESCRIPTION_EN}">
 <style>
@@ -279,8 +290,8 @@ function renderHtml(themes, builtAt) {
 <body>
 <header>
   <div class="container">
-    <h1>${SITE_TITLE}</h1>
-    <p class="subtitle">${SITE_DESCRIPTION_JA}</p>
+    <h1>${SITE_HEADING}</h1>
+    <p class="subtitle">${description}</p>
   </div>
 </header>
 <main class="container">
