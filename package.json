@@ -9,5 +9,8 @@
   },
   "scripts": {
     "build": "node --env-file-if-exists=.env scripts/build.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
   }
 }

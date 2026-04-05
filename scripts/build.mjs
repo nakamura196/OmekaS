@@ -3,10 +3,15 @@
 
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { Resvg } from '@resvg/resvg-js';
 
 const TOKEN = process.env.GITHUB_TOKEN;
 const CSV_URL = 'https://raw.githubusercontent.com/Daniel-KM/UpgradeToOmekaS/master/_data/omeka_s_themes.csv';
 const OUT_DIR = 'docs';
+const SITE_URL = 'https://nakamura196.github.io/OmekaS/';
+const SITE_TITLE = 'Omeka S Themes';
+const SITE_DESCRIPTION_JA = 'GitHub 上で公開されている Omeka S テーマの一覧';
+const SITE_DESCRIPTION_EN = 'A visual catalog of Omeka S themes hosted on GitHub.';
 const CONCURRENCY = Number(process.env.CONCURRENCY || 5);
 const MAX_RETRIES = 4;
 const USER_AGENT = 'omeka-s-themes-builder (+https://github.com/nakamura196/OmekaS)';
@@ -139,6 +144,65 @@ async function fetchRepoMetadata(repoUrl) {
   };
 }
 
+// ---------- OGP image ----------
+
+function renderOgpSvg(themeCount, advancedCount) {
+  // 1200x630 OGP image with a decorative grid of squares representing themes,
+  // plus title / subtitle / footer text. Latin-only text to avoid font issues.
+  const cols = 16;
+  const rows = 9;
+  const cellSize = 40;
+  const gap = 6;
+  const gridW = cols * cellSize + (cols - 1) * gap;
+  const gridH = rows * cellSize + (rows - 1) * gap;
+  const gridX = 1200 - gridW - 60;
+  const gridY = (630 - gridH) / 2;
+
+  const cells = [];
+  for (let i = 0; i < cols * rows; i++) {
+    const col = i % cols;
+    const row = Math.floor(i / cols);
+    const x = gridX + col * (cellSize + gap);
+    const y = gridY + row * (cellSize + gap);
+    const filled = i < themeCount;
+    const opacity = filled ? 0.85 : 0.15;
+    const fill = filled && i < advancedCount ? '#7ee7ff' : '#ffffff';
+    cells.push(
+      `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" rx="6" fill="${fill}" opacity="${opacity}"/>`,
+    );
+  }
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b3d91"/>
+      <stop offset="0.55" stop-color="#0969da"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g>${cells.join('')}</g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="60" y="200" font-size="40" font-weight="500" opacity="0.85">A visual catalog of</text>
+    <text x="60" y="300" font-size="96" font-weight="800" letter-spacing="-2">Omeka S</text>
+    <text x="60" y="400" font-size="96" font-weight="800" letter-spacing="-2">Themes</text>
+    <text x="60" y="470" font-size="34" font-weight="500" opacity="0.9">${themeCount} themes · ${advancedCount} with advanced search</text>
+    <text x="60" y="570" font-size="26" opacity="0.75">nakamura196.github.io/OmekaS</text>
+  </g>
+</svg>`;
+}
+
+async function writeOgpImage(themes) {
+  const advancedCount = themes.filter((t) => t.has_advanced_search).length;
+  const svg = renderOgpSvg(themes.length, advancedCount);
+  const resvg = new Resvg(svg, {
+    fitTo: { mode: 'width', value: 1200 },
+    font: { loadSystemFonts: true },
+  });
+  const png = resvg.render().asPng();
+  await writeFile(path.join(OUT_DIR, 'ogp.png'), png);
+}
+
 // ---------- template ----------
 
 function renderHtml(themes, builtAt) {
@@ -150,8 +214,31 @@ function renderHtml(themes, builtAt) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Omeka S Themes</title>
-<meta name="description" content="GitHub 上で公開されている Omeka S テーマの一覧">
+<title>${SITE_TITLE}</title>
+<meta name="description" content="${SITE_DESCRIPTION_JA}">
+<link rel="canonical" href="${SITE_URL}">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${SITE_TITLE}">
+<meta property="og:title" content="${SITE_TITLE}">
+<meta property="og:description" content="${SITE_DESCRIPTION_JA}">
+<meta property="og:url" content="${SITE_URL}">
+<meta property="og:image" content="${SITE_URL}ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${SITE_DESCRIPTION_EN}">
+<meta property="og:locale" content="ja_JP">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${SITE_TITLE}">
+<meta name="twitter:description" content="${SITE_DESCRIPTION_JA}">
+<meta name="twitter:image" content="${SITE_URL}ogp.png">
+<meta name="twitter:image:alt" content="${SITE_DESCRIPTION_EN}">
 <style>
   :root {
     --bg: #f6f8fa; --card: #fff; --text: #24292f; --muted: #57606a;
@@ -192,8 +279,8 @@ function renderHtml(themes, builtAt) {
 <body>
 <header>
   <div class="container">
-    <h1>Omeka S Themes</h1>
-    <p class="subtitle">GitHub 上で公開されている Omeka S テーマの一覧</p>
+    <h1>${SITE_TITLE}</h1>
+    <p class="subtitle">${SITE_DESCRIPTION_JA}</p>
   </div>
 </header>
 <main class="container">
@@ -313,7 +400,8 @@ async function main() {
     path.join(OUT_DIR, 'index.html'),
     renderHtml(themes, new Date().toISOString()),
   );
-  console.log(`\nWrote ${themes.length} themes to ${OUT_DIR}/`);
+  await writeOgpImage(themes);
+  console.log(`\nWrote ${themes.length} themes to ${OUT_DIR}/ (index.html, theme_metadata.json, ogp.png)`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
