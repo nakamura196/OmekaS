@@ -4,12 +4,6 @@ on:
   schedule:
     # Daily at 00:00 UTC (09:00 JST)
     - cron: '0 0 * * *'
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/**'
-      - '.github/workflows/build.yml'
-      - 'package.json'
   workflow_dispatch:
 
 concurrency:
@@ -47,6 +41,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update theme catalog"
+            git commit -m "chore: update theme catalog [skip ci]"
             git push
           fi
