@@ -1060,16 +1060,6 @@
     "has_advanced_search": false
   },
   {
-    "name": "ussixthfleet-site",
-    "owner": "jglotzer",
-    "url": "https://github.com/jglotzer/ussixthfleet-site",
-    "description": null,
-    "stars": 0,
-    "last_updated": "2026-04-22T13:42:48Z",
-    "theme_url": "https://raw.githubusercontent.com/jglotzer/ussixthfleet-site/main/theme.jpg",
-    "has_advanced_search": false
-  },
-  {
     "name": "yul-omeka-s-topnav",
     "owner": "yalelibrary",
     "url": "https://github.com/yalelibrary/yul-omeka-s-topnav",
