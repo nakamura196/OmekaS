@@ -15,7 +15,7 @@
     "url": "https://github.com/omeka-s-themes/foundation",
     "description": "An Omeka S theme based off ZURB Foundation",
     "stars": 7,
-    "last_updated": "2026-04-30T18:26:33Z",
+    "last_updated": "2026-05-01T15:23:26Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -565,7 +565,7 @@
     "url": "https://github.com/fitnycdigitalinitiatives/fit-ir",
     "description": "Omeka-S theme for the FIT Institutional Repository. Built upon Bootstrap framework. Works with FITModule, Relators Module, and FIT-forked Solr modules, and FIT-forked MetadataBrowse.",
     "stars": 0,
-    "last_updated": "2025-10-23T18:58:28Z",
+    "last_updated": "2026-05-01T19:22:49Z",
     "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-ir/main/theme.jpg",
     "has_advanced_search": true
   },
