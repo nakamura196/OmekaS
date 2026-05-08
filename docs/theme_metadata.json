@@ -535,7 +535,7 @@
     "url": "https://github.com/fitnycdigitalinitiatives/fit-aod",
     "description": "Omeka-S theme for Archive on Demand",
     "stars": 0,
-    "last_updated": "2025-11-17T16:51:55Z",
+    "last_updated": "2026-05-07T15:46:41Z",
     "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-aod/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -545,7 +545,7 @@
     "url": "https://github.com/fitnycdigitalinitiatives/fit-df",
     "description": "Designer Files omeka-s theme",
     "stars": 0,
-    "last_updated": "2026-01-20T19:42:22Z",
+    "last_updated": "2026-05-07T15:56:36Z",
     "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-df/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -565,7 +565,7 @@
     "url": "https://github.com/fitnycdigitalinitiatives/fit-ir",
     "description": "Omeka-S theme for the FIT Institutional Repository. Built upon Bootstrap framework. Works with FITModule, Relators Module, and FIT-forked Solr modules, and FIT-forked MetadataBrowse.",
     "stars": 0,
-    "last_updated": "2026-05-01T19:22:49Z",
+    "last_updated": "2026-05-07T15:43:32Z",
     "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-ir/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -615,7 +615,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "An Omeka S Theme",
     "stars": 0,
-    "last_updated": "2026-04-28T06:31:19Z",
+    "last_updated": "2026-05-07T05:35:56Z",
     "theme_url": null,
     "has_advanced_search": true
   },
