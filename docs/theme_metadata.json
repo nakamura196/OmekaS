@@ -570,6 +570,16 @@
     "has_advanced_search": true
   },
   {
+    "name": "fit-sd",
+    "owner": "fitnycdigitalinitiatives",
+    "url": "https://github.com/fitnycdigitalinitiatives/fit-sd",
+    "description": "Omeka-S theme for SPARC Digital",
+    "stars": 0,
+    "last_updated": "2026-06-11T20:24:15Z",
+    "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-sd/main/theme.jpg",
+    "has_advanced_search": true
+  },
+  {
     "name": "gmu-cml-theme",
     "owner": "Omeka-External",
     "url": "https://github.com/Omeka-External/gmu-cml-theme",
@@ -615,7 +625,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "An Omeka S Theme",
     "stars": 0,
-    "last_updated": "2026-06-18T07:36:34Z",
+    "last_updated": "2026-06-19T07:23:16Z",
     "theme_url": null,
     "has_advanced_search": true
   },
@@ -1027,6 +1037,16 @@
     "stars": 0,
     "last_updated": "2026-03-17T16:50:32Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thanksroy/master/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
+    "name": "the-fifty-acres",
+    "owner": "Liziloo",
+    "url": "https://github.com/Liziloo/the-fifty-acres",
+    "description": null,
+    "stars": 0,
+    "last_updated": "2026-06-18T18:48:48Z",
+    "theme_url": "https://raw.githubusercontent.com/Liziloo/the-fifty-acres/main/theme.jpg",
     "has_advanced_search": false
   },
   {
