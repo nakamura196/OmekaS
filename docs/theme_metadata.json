@@ -15,8 +15,8 @@
     "url": "https://github.com/omeka-s-themes/foundation",
     "description": "An Omeka S theme based off ZURB Foundation",
     "stars": 7,
-    "last_updated": "2026-06-29T20:44:26Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/master/theme.jpg",
+    "last_updated": "2026-06-30T14:54:56Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
     "has_advanced_search": false
   },
   {
@@ -105,7 +105,7 @@
     "url": "https://github.com/omeka-s-themes/default",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-06-18T16:31:35Z",
+    "last_updated": "2026-06-30T20:31:39Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/default/develop/theme.jpg",
     "has_advanced_search": false
   },
@@ -275,7 +275,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "An Omeka S Theme",
     "stars": 1,
-    "last_updated": "2026-06-28T07:31:54Z",
+    "last_updated": "2026-06-30T07:05:47Z",
     "theme_url": null,
     "has_advanced_search": true
   },
@@ -1045,7 +1045,7 @@
     "url": "https://github.com/Liziloo/the-fifty-acres",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-06-29T20:03:50Z",
+    "last_updated": "2026-06-30T13:29:44Z",
     "theme_url": "https://raw.githubusercontent.com/Liziloo/the-fifty-acres/main/theme.jpg",
     "has_advanced_search": false
   },
