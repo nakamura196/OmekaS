@@ -95,7 +95,7 @@
     "url": "https://github.com/omeka-s-themes/centerrow",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-03-26T18:34:51Z",
+    "last_updated": "2026-07-01T01:41:12Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/centerrow/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -106,7 +106,7 @@
     "description": null,
     "stars": 2,
     "last_updated": "2026-06-30T20:31:39Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/default/develop/theme.jpg",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/default/main/theme.jpg",
     "has_advanced_search": false
   },
   {
@@ -245,8 +245,8 @@
     "url": "https://github.com/omeka-s-themes/cozy",
     "description": null,
     "stars": 1,
-    "last_updated": "2026-03-25T14:23:12Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/cozy/master/theme.jpg",
+    "last_updated": "2026-07-01T18:58:13Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/cozy/main/theme.jpg",
     "has_advanced_search": false
   },
   {
