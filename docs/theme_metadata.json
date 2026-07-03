@@ -15,7 +15,7 @@
     "url": "https://github.com/omeka-s-themes/foundation",
     "description": "An Omeka S theme based off ZURB Foundation",
     "stars": 7,
-    "last_updated": "2026-06-30T14:54:56Z",
+    "last_updated": "2026-07-02T19:09:06Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -35,7 +35,7 @@
     "url": "https://github.com/omeka-s-themes/thedaily",
     "description": null,
     "stars": 4,
-    "last_updated": "2026-03-25T14:43:06Z",
+    "last_updated": "2026-07-02T17:50:49Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thedaily/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -285,7 +285,7 @@
     "url": "https://github.com/Omeka-External/korematsu-theme",
     "description": null,
     "stars": 1,
-    "last_updated": "2026-06-22T19:19:56Z",
+    "last_updated": "2026-07-02T02:03:53Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/korematsu-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -1035,8 +1035,8 @@
     "url": "https://github.com/omeka-s-themes/thanksroy",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-03-17T16:50:32Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thanksroy/master/theme.jpg",
+    "last_updated": "2026-07-02T19:36:42Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thanksroy/main/theme.jpg",
     "has_advanced_search": false
   },
   {
