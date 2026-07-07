@@ -35,8 +35,8 @@
     "url": "https://github.com/omeka-s-themes/thedaily",
     "description": null,
     "stars": 4,
-    "last_updated": "2026-07-02T17:50:49Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thedaily/master/theme.jpg",
+    "last_updated": "2026-07-06T15:33:10Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thedaily/main/theme.jpg",
     "has_advanced_search": false
   },
   {
@@ -345,7 +345,7 @@
     "url": "https://github.com/biblibre/omeka-s-theme-omekalia",
     "description": null,
     "stars": 1,
-    "last_updated": "2026-03-19T14:23:39Z",
+    "last_updated": "2026-07-06T08:27:03Z",
     "theme_url": "https://raw.githubusercontent.com/biblibre/omeka-s-theme-omekalia/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -935,8 +935,8 @@
     "url": "https://github.com/omeka-s-themes/papers",
     "description": "An Omeka S theme based on the Papers of the War Department.",
     "stars": 0,
-    "last_updated": "2026-03-25T14:39:13Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/papers/master/theme.jpg",
+    "last_updated": "2026-07-06T15:47:11Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/papers/main/theme.jpg",
     "has_advanced_search": false
   },
   {
