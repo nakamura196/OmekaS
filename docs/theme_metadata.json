@@ -50,6 +50,26 @@
     "has_advanced_search": true
   },
   {
+    "name": "centerrow",
+    "owner": "omeka-s-themes",
+    "url": "https://github.com/omeka-s-themes/centerrow",
+    "description": null,
+    "stars": 3,
+    "last_updated": "2026-07-09T20:47:03Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/centerrow/master/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
+    "name": "default",
+    "owner": "omeka-s-themes",
+    "url": "https://github.com/omeka-s-themes/default",
+    "description": null,
+    "stars": 3,
+    "last_updated": "2026-07-09T20:47:54Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/default/main/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
     "name": "exhibits-omeka-s-theme",
     "owner": "dharc-org",
     "url": "https://github.com/dharc-org/exhibits-omeka-s-theme",
@@ -90,23 +110,13 @@
     "has_advanced_search": false
   },
   {
-    "name": "centerrow",
+    "name": "cozy",
     "owner": "omeka-s-themes",
-    "url": "https://github.com/omeka-s-themes/centerrow",
+    "url": "https://github.com/omeka-s-themes/cozy",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-07-01T01:41:12Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/centerrow/master/theme.jpg",
-    "has_advanced_search": false
-  },
-  {
-    "name": "default",
-    "owner": "omeka-s-themes",
-    "url": "https://github.com/omeka-s-themes/default",
-    "description": null,
-    "stars": 2,
-    "last_updated": "2026-06-30T20:31:39Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/default/main/theme.jpg",
+    "last_updated": "2026-07-09T20:45:46Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/cozy/main/theme.jpg",
     "has_advanced_search": false
   },
   {
@@ -238,16 +248,6 @@
     "last_updated": "2025-04-23T03:35:26Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/constellations-theme/main/theme.jpg",
     "has_advanced_search": true
-  },
-  {
-    "name": "cozy",
-    "owner": "omeka-s-themes",
-    "url": "https://github.com/omeka-s-themes/cozy",
-    "description": null,
-    "stars": 1,
-    "last_updated": "2026-07-01T18:58:13Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/cozy/main/theme.jpg",
-    "has_advanced_search": false
   },
   {
     "name": "dharc-omeka-s-theme",
