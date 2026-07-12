@@ -670,6 +670,16 @@
     "has_advanced_search": false
   },
   {
+    "name": "omeka-foundation-theme",
+    "owner": "DigitalHDev",
+    "url": "https://github.com/DigitalHDev/omeka-foundation-theme",
+    "description": "omeka-foundation-theme",
+    "stars": 0,
+    "last_updated": "2026-07-08T15:19:00Z",
+    "theme_url": "https://raw.githubusercontent.com/DigitalHDev/omeka-foundation-theme/master/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
     "name": "Omeka-S-Akrep-Theme",
     "owner": "procesaur",
     "url": "https://github.com/procesaur/Omeka-S-Akrep-Theme",
@@ -1078,6 +1088,16 @@
     "last_updated": "2022-11-03T16:13:29Z",
     "theme_url": null,
     "has_advanced_search": false
+  },
+  {
+    "name": "uc-caan-theme",
+    "owner": "Omeka-External",
+    "url": "https://github.com/Omeka-External/uc-caan-theme",
+    "description": null,
+    "stars": 0,
+    "last_updated": "2026-07-10T22:47:28Z",
+    "theme_url": "https://raw.githubusercontent.com/Omeka-External/uc-caan-theme/main/theme.jpg",
+    "has_advanced_search": true
   },
   {
     "name": "UO-Library-Omeka-S-Theme-Dark",
