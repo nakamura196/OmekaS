@@ -15,7 +15,7 @@
     "url": "https://github.com/omeka-s-themes/foundation",
     "description": "An Omeka S theme based off ZURB Foundation",
     "stars": 7,
-    "last_updated": "2026-07-13T16:50:42Z",
+    "last_updated": "2026-07-15T19:40:23Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -35,7 +35,7 @@
     "url": "https://github.com/omeka-s-themes/thedaily",
     "description": null,
     "stars": 4,
-    "last_updated": "2026-07-14T20:38:41Z",
+    "last_updated": "2026-07-15T20:38:32Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thedaily/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -115,7 +115,7 @@
     "url": "https://github.com/omeka-s-themes/cozy",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-07-09T20:45:46Z",
+    "last_updated": "2026-07-15T17:13:03Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/cozy/main/theme.jpg",
     "has_advanced_search": false
   },
