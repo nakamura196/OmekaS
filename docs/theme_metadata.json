@@ -15,7 +15,7 @@
     "url": "https://github.com/omeka-s-themes/foundation",
     "description": "An Omeka S theme based off ZURB Foundation",
     "stars": 7,
-    "last_updated": "2026-07-24T17:39:18Z",
+    "last_updated": "2026-07-27T19:38:52Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -35,7 +35,7 @@
     "url": "https://github.com/omeka-s-themes/freedom",
     "description": "An Omeka S Theme",
     "stars": 4,
-    "last_updated": "2026-05-12T22:57:33Z",
+    "last_updated": "2026-07-27T17:38:02Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/freedom/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -65,7 +65,7 @@
     "url": "https://github.com/omeka-s-themes/centerrow",
     "description": null,
     "stars": 3,
-    "last_updated": "2026-07-23T14:20:30Z",
+    "last_updated": "2026-07-27T19:32:20Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/centerrow/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -125,7 +125,7 @@
     "url": "https://github.com/omeka-s-themes/cozy",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-07-15T17:13:03Z",
+    "last_updated": "2026-07-27T19:39:16Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/cozy/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -145,7 +145,7 @@
     "url": "https://github.com/omeka-s-themes/lively",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-05-12T22:58:01Z",
+    "last_updated": "2026-07-27T17:30:34Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/lively/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -355,7 +355,7 @@
     "url": "https://github.com/biblibre/omeka-s-theme-omekalia",
     "description": null,
     "stars": 1,
-    "last_updated": "2026-07-06T08:27:03Z",
+    "last_updated": "2026-07-27T15:35:48Z",
     "theme_url": "https://raw.githubusercontent.com/biblibre/omeka-s-theme-omekalia/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -955,7 +955,7 @@
     "url": "https://github.com/omeka-s-themes/papers",
     "description": "An Omeka S theme based on the Papers of the War Department.",
     "stars": 0,
-    "last_updated": "2026-07-06T15:47:11Z",
+    "last_updated": "2026-07-27T19:38:21Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/papers/main/theme.jpg",
     "has_advanced_search": false
   },
