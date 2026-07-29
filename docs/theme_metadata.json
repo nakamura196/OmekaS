@@ -75,7 +75,7 @@
     "url": "https://github.com/omeka-s-themes/default",
     "description": null,
     "stars": 3,
-    "last_updated": "2026-07-22T15:14:58Z",
+    "last_updated": "2026-07-28T13:48:37Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/default/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -1006,7 +1006,7 @@
     "description": "A custom Omeka S theme developed for the Fisk University Rosenwald Project. This theme is designed to provide a visually accessible, archivist-friendly interface for exploring digitized materials related to Julius Rosenwald’s philanthropic impact on African-American education.",
     "stars": 0,
     "last_updated": "2026-06-03T19:53:02Z",
-    "theme_url": "https://raw.githubusercontent.com/Fisk-University/Rosenwald-Fund-Collection/main/theme.jpg",
+    "theme_url": null,
     "has_advanced_search": false
   },
   {
