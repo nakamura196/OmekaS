@@ -15,7 +15,7 @@
     "url": "https://github.com/omeka-s-themes/foundation",
     "description": "An Omeka S theme based off ZURB Foundation",
     "stars": 7,
-    "last_updated": "2026-07-27T19:38:52Z",
+    "last_updated": "2026-07-31T21:28:49Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -45,7 +45,7 @@
     "url": "https://github.com/omeka-s-themes/thedaily",
     "description": null,
     "stars": 4,
-    "last_updated": "2026-07-15T20:38:32Z",
+    "last_updated": "2026-07-31T18:40:44Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thedaily/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -65,7 +65,7 @@
     "url": "https://github.com/omeka-s-themes/centerrow",
     "description": null,
     "stars": 3,
-    "last_updated": "2026-07-29T15:26:19Z",
+    "last_updated": "2026-07-31T19:23:06Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/centerrow/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -75,7 +75,7 @@
     "url": "https://github.com/omeka-s-themes/default",
     "description": null,
     "stars": 3,
-    "last_updated": "2026-07-28T13:48:37Z",
+    "last_updated": "2026-07-31T21:08:58Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/default/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -125,7 +125,7 @@
     "url": "https://github.com/omeka-s-themes/cozy",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-07-27T19:39:16Z",
+    "last_updated": "2026-07-31T19:31:19Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/cozy/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -285,9 +285,9 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "An Omeka S Theme",
     "stars": 1,
-    "last_updated": "2026-07-29T17:53:47Z",
+    "last_updated": "2026-07-31T17:54:09Z",
     "theme_url": null,
-    "has_advanced_search": true
+    "has_advanced_search": false
   },
   {
     "name": "korematsu-theme",
