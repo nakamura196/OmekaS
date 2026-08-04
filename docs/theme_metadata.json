@@ -15,7 +15,7 @@
     "url": "https://github.com/omeka-s-themes/foundation",
     "description": "An Omeka S theme based off ZURB Foundation",
     "stars": 7,
-    "last_updated": "2026-07-31T21:28:49Z",
+    "last_updated": "2026-08-03T17:46:08Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -35,7 +35,7 @@
     "url": "https://github.com/omeka-s-themes/freedom",
     "description": "An Omeka S Theme",
     "stars": 4,
-    "last_updated": "2026-07-27T17:38:02Z",
+    "last_updated": "2026-08-04T00:38:13Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/freedom/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -45,7 +45,7 @@
     "url": "https://github.com/omeka-s-themes/thedaily",
     "description": null,
     "stars": 4,
-    "last_updated": "2026-07-31T18:40:44Z",
+    "last_updated": "2026-08-03T15:39:31Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thedaily/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -145,7 +145,7 @@
     "url": "https://github.com/omeka-s-themes/lively",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-07-27T17:30:34Z",
+    "last_updated": "2026-08-04T00:37:56Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/lively/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -955,7 +955,7 @@
     "url": "https://github.com/omeka-s-themes/papers",
     "description": "An Omeka S theme based on the Papers of the War Department.",
     "stars": 0,
-    "last_updated": "2026-07-27T19:38:21Z",
+    "last_updated": "2026-08-03T15:00:20Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/papers/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -1055,7 +1055,7 @@
     "url": "https://github.com/omeka-s-themes/thanksroy",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-07-13T15:42:47Z",
+    "last_updated": "2026-08-03T15:27:15Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thanksroy/main/theme.jpg",
     "has_advanced_search": false
   },
