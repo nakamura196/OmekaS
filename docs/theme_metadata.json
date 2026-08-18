@@ -15,7 +15,7 @@
     "url": "https://github.com/omeka-s-themes/foundation",
     "description": "An Omeka S theme based off ZURB Foundation",
     "stars": 7,
-    "last_updated": "2026-08-03T17:46:08Z",
+    "last_updated": "2026-08-17T16:03:45Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -285,7 +285,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "Omeka S theme for the Islam West Africa Collection, an open-access francophone digital collection at ZMO Berlin. OKLCH design tokens, light/dark mode, EN/FR, WCAG 2.1 AA.",
     "stars": 1,
-    "last_updated": "2026-08-14T09:07:04Z",
+    "last_updated": "2026-08-17T06:14:22Z",
     "theme_url": "https://raw.githubusercontent.com/fmadore/IWAC-theme/master/theme.jpg",
     "has_advanced_search": false
   },
