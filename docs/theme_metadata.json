@@ -35,7 +35,7 @@
     "url": "https://github.com/omeka-s-themes/freedom",
     "description": "An Omeka S Theme",
     "stars": 4,
-    "last_updated": "2026-08-04T00:38:13Z",
+    "last_updated": "2026-08-19T18:13:24Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/freedom/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -145,7 +145,7 @@
     "url": "https://github.com/omeka-s-themes/lively",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-08-04T00:37:56Z",
+    "last_updated": "2026-08-19T18:13:43Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/lively/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -255,7 +255,7 @@
     "url": "https://github.com/Omeka-External/constellations-theme",
     "description": null,
     "stars": 1,
-    "last_updated": "2025-04-23T03:35:26Z",
+    "last_updated": "2026-08-19T20:59:37Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/constellations-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -285,7 +285,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "Omeka S theme for the Islam West Africa Collection, an open-access francophone digital collection at ZMO Berlin. OKLCH design tokens, light/dark mode, EN/FR, WCAG 2.1 AA.",
     "stars": 1,
-    "last_updated": "2026-08-18T19:08:46Z",
+    "last_updated": "2026-08-19T08:24:08Z",
     "theme_url": "https://raw.githubusercontent.com/fmadore/IWAC-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -295,7 +295,7 @@
     "url": "https://github.com/Omeka-External/korematsu-theme",
     "description": null,
     "stars": 1,
-    "last_updated": "2026-07-21T18:23:31Z",
+    "last_updated": "2026-08-19T20:04:16Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/korematsu-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -545,7 +545,7 @@
     "url": "https://github.com/Omeka-External/fam-oer-theme",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-05-27T04:38:50Z",
+    "last_updated": "2026-08-19T21:06:03Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/fam-oer-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -605,7 +605,7 @@
     "url": "https://github.com/Omeka-External/gmu-cml-theme",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-05-27T04:43:48Z",
+    "last_updated": "2026-08-19T20:13:27Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/gmu-cml-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -1095,7 +1095,7 @@
     "url": "https://github.com/Omeka-External/uc-caan-theme",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-07-21T16:18:30Z",
+    "last_updated": "2026-08-19T21:12:21Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/uc-caan-theme/main/theme.jpg",
     "has_advanced_search": true
   },
