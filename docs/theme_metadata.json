@@ -35,7 +35,7 @@
     "url": "https://github.com/omeka-s-themes/freedom",
     "description": "An Omeka S Theme",
     "stars": 4,
-    "last_updated": "2026-08-21T20:54:20Z",
+    "last_updated": "2026-08-23T20:45:38Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/freedom/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -145,7 +145,7 @@
     "url": "https://github.com/omeka-s-themes/lively",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-08-20T01:25:05Z",
+    "last_updated": "2026-08-23T20:45:44Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/lively/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -675,7 +675,7 @@
     "url": "https://github.com/DigitalHDev/omeka-foundation-theme",
     "description": "omeka-foundation-theme",
     "stars": 0,
-    "last_updated": "2026-07-08T15:19:00Z",
+    "last_updated": "2026-08-23T16:21:25Z",
     "theme_url": "https://raw.githubusercontent.com/DigitalHDev/omeka-foundation-theme/master/theme.jpg",
     "has_advanced_search": false
   },
