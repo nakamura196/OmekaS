@@ -285,7 +285,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "Omeka S theme for the Islam West Africa Collection, an open-access francophone digital collection at ZMO Berlin. OKLCH design tokens, light/dark mode, EN/FR, WCAG 2.1 AA.",
     "stars": 1,
-    "last_updated": "2026-08-20T06:57:26Z",
+    "last_updated": "2026-08-24T18:59:26Z",
     "theme_url": "https://raw.githubusercontent.com/fmadore/IWAC-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -675,7 +675,7 @@
     "url": "https://github.com/DigitalHDev/omeka-foundation-theme",
     "description": "omeka-foundation-theme",
     "stars": 0,
-    "last_updated": "2026-08-23T16:21:25Z",
+    "last_updated": "2026-08-24T14:37:28Z",
     "theme_url": "https://raw.githubusercontent.com/DigitalHDev/omeka-foundation-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -1025,7 +1025,7 @@
     "url": "https://github.com/dartmouth-dltg/storybooth",
     "description": "An Omeka-S theme for a bespoke Dartmouth College site",
     "stars": 0,
-    "last_updated": "2025-03-25T13:11:05Z",
+    "last_updated": "2026-08-24T14:55:49Z",
     "theme_url": "https://raw.githubusercontent.com/dartmouth-dltg/storybooth/main/theme.jpg",
     "has_advanced_search": false
   },
