@@ -210,16 +210,6 @@
     "has_advanced_search": false
   },
   {
-    "name": "UO-Library-Omeka-S-Theme",
-    "owner": "uoregon-libraries",
-    "url": "https://github.com/uoregon-libraries/UO-Library-Omeka-S-Theme",
-    "description": "A theme for Omeka S based on the default theme",
-    "stars": 2,
-    "last_updated": "2023-05-03T23:14:16Z",
-    "theme_url": "https://raw.githubusercontent.com/uoregon-libraries/UO-Library-Omeka-S-Theme/main/theme.jpg",
-    "has_advanced_search": false
-  },
-  {
     "name": "ajotpy_theme",
     "owner": "kylelarkin",
     "url": "https://github.com/kylelarkin/ajotpy_theme",
@@ -285,7 +275,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "Omeka S theme for the Islam West Africa Collection, an open-access francophone digital collection at ZMO Berlin. OKLCH design tokens, light/dark mode, EN/FR, WCAG 2.1 AA.",
     "stars": 1,
-    "last_updated": "2026-08-25T05:37:35Z",
+    "last_updated": "2026-08-26T10:22:01Z",
     "theme_url": "https://raw.githubusercontent.com/fmadore/IWAC-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -417,6 +407,16 @@
     "stars": 1,
     "last_updated": "2023-05-29T20:57:30Z",
     "theme_url": "https://raw.githubusercontent.com/marriott-library/UMFA-OmekaS-Theme/main/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
+    "name": "UO-Library-Omeka-S-Theme",
+    "owner": "uoregon-libraries",
+    "url": "https://github.com/uoregon-libraries/UO-Library-Omeka-S-Theme",
+    "description": "A theme for Omeka S based on the default theme",
+    "stars": 1,
+    "last_updated": "2026-08-26T14:28:56Z",
+    "theme_url": "https://raw.githubusercontent.com/uoregon-libraries/UO-Library-Omeka-S-Theme/main/theme.jpg",
     "has_advanced_search": false
   },
   {
@@ -675,7 +675,7 @@
     "url": "https://github.com/DigitalHDev/omeka-foundation-theme",
     "description": "omeka-foundation-theme",
     "stars": 0,
-    "last_updated": "2026-08-25T15:38:15Z",
+    "last_updated": "2026-08-26T17:18:19Z",
     "theme_url": "https://raw.githubusercontent.com/DigitalHDev/omeka-foundation-theme/master/theme.jpg",
     "has_advanced_search": false
   },
