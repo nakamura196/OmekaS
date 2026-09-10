@@ -520,6 +520,16 @@
     "has_advanced_search": true
   },
   {
+    "name": "default-fondo-documental-ilv",
+    "owner": "MonicaCabanas23",
+    "url": "https://github.com/MonicaCabanas23/default-fondo-documental-ilv",
+    "description": null,
+    "stars": 0,
+    "last_updated": "2026-08-26T03:04:07Z",
+    "theme_url": "https://raw.githubusercontent.com/MonicaCabanas23/default-fondo-documental-ilv/main/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
     "name": "dlme-omeka-s-theme",
     "owner": "waynegraham",
     "url": "https://github.com/waynegraham/dlme-omeka-s-theme",
@@ -528,6 +538,16 @@
     "last_updated": "2021-09-02T13:40:02Z",
     "theme_url": "https://raw.githubusercontent.com/waynegraham/dlme-omeka-s-theme/main/theme.jpg",
     "has_advanced_search": true
+  },
+  {
+    "name": "DRE-theme",
+    "owner": "AM-Digital-Research-Environment",
+    "url": "https://github.com/AM-Digital-Research-Environment/DRE-theme",
+    "description": "Omeka S theme for the Africa Multiple Cluster of Excellence (University of Bayreuth) — a “Scholarly Modernism” design system on an OKLCH design-token foundation, with first-class light and dark modes.",
+    "stars": 0,
+    "last_updated": "2026-09-07T13:30:20Z",
+    "theme_url": "https://raw.githubusercontent.com/AM-Digital-Research-Environment/DRE-theme/master/theme.jpg",
+    "has_advanced_search": false
   },
   {
     "name": "exhibits-omeka-s-theme",
@@ -727,6 +747,16 @@
     "stars": 0,
     "last_updated": "2020-04-24T08:24:38Z",
     "theme_url": "https://raw.githubusercontent.com/Daniel-KM/Omeka-S-theme-Albert1er/master/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
+    "name": "omeka-s-theme-atlas",
+    "owner": "ionm",
+    "url": "https://github.com/ionm/omeka-s-theme-atlas",
+    "description": "Atlas — an Omeka S theme: …",
+    "stars": 0,
+    "last_updated": "2026-09-04T14:42:30Z",
+    "theme_url": null,
     "has_advanced_search": false
   },
   {
