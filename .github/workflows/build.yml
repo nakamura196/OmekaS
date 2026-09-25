@@ -17,10 +17,10 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '20'
           cache: 'npm'
@@ -33,11 +33,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run build
 
+      # 公開 URL の固定と、生成した docs/ の参照切れ・旧ホスト文字列を検査してからコミットする。
+      - name: Test generated docs
+        run: npm test
+
       - name: Commit generated docs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html docs/theme_metadata.json docs/ogp.png
+          git add docs/index.html docs/theme_metadata.json docs/ogp.png docs/CNAME docs/robots.txt docs/sitemap.xml
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
