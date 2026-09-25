@@ -2,7 +2,7 @@
 
 GitHub 上で公開されている [Omeka S](https://omeka.org/s/) テーマの一覧を視覚的に確認できる静的サイトです。
 
-公開URL: https://nakamura196.github.io/OmekaS/
+公開URL: https://omeka.ldas.jp/ (旧 https://nakamura196.github.io/OmekaS/ は同じパスへ転送されます)
 
 ## 仕組み
 

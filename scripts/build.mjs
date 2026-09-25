@@ -3,12 +3,16 @@
 
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { Resvg } from '@resvg/resvg-js';
 
 const TOKEN = process.env.GITHUB_TOKEN;
 const CSV_URL = 'https://raw.githubusercontent.com/Daniel-KM/UpgradeToOmekaS/master/_data/omeka_s_themes.csv';
 const OUT_DIR = 'docs';
-const SITE_URL = 'https://nakamura196.github.io/OmekaS/';
+// 公開 URL。GitHub Pages の独自ドメイン (docs/CNAME) もここから書き出す。
+// 旧 URL (nakamura196.github.io/OmekaS/) は GitHub Pages が同じパスへ 301 で転送する。
+export const SITE_URL = 'https://omeka.ldas.jp/';
+const SITE_HOST = new URL(SITE_URL).host;
 const SITE_HEADING = 'Omeka S Themes';
 const SITE_TITLE = 'Omeka S Themes — GitHubで公開されているOmeka Sテーマのビジュアルカタログ';
 const SITE_DESCRIPTION_EN = 'A visual catalog of Omeka S themes hosted on GitHub.';
@@ -152,7 +156,7 @@ async function fetchRepoMetadata(repoUrl) {
 
 // ---------- OGP image ----------
 
-function renderOgpSvg(themeCount, advancedCount) {
+export function renderOgpSvg(themeCount, advancedCount) {
   // 1200x630 OGP image with a decorative grid of squares representing themes,
   // plus title / subtitle / footer text. Latin-only text to avoid font issues.
   const cols = 16;
@@ -198,7 +202,7 @@ function renderOgpSvg(themeCount, advancedCount) {
     <rect x="60" y="510" width="360" height="72" rx="36" fill="#ffffff"/>
     <text x="240" y="558" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0969da">Explore the catalog →</text>
   </g>
-  <text x="1140" y="600" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" opacity="0.7">nakamura196.github.io/OmekaS</text>
+  <text x="1140" y="600" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" opacity="0.7">${SITE_HOST}</text>
 </svg>`;
 }
 
@@ -215,7 +219,7 @@ async function writeOgpImage(themes) {
 
 // ---------- template ----------
 
-function renderHtml(themes, builtAt) {
+export function renderHtml(themes, builtAt) {
   const description = buildDescription(themes);
   // Client-side template literals below are escaped as \${...} so the outer
   // template literal here does not try to evaluate them at build time.
@@ -374,6 +378,20 @@ function renderHtml(themes, builtAt) {
 `;
 }
 
+// ---------- files that only depend on SITE_URL ----------
+
+export function renderRobots() {
+  return `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}sitemap.xml\n`;
+}
+
+export function renderSitemap(builtAt) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>${SITE_URL}</loc><lastmod>${builtAt.slice(0, 10)}</lastmod><changefreq>daily</changefreq></url>
+</urlset>
+`;
+}
+
 // ---------- main ----------
 
 async function main() {
@@ -407,12 +425,16 @@ async function main() {
     path.join(OUT_DIR, 'theme_metadata.json'),
     JSON.stringify(themes, null, 2) + '\n',
   );
-  await writeFile(
-    path.join(OUT_DIR, 'index.html'),
-    renderHtml(themes, new Date().toISOString()),
-  );
+  const builtAt = new Date().toISOString();
+  await writeFile(path.join(OUT_DIR, 'index.html'), renderHtml(themes, builtAt));
+  await writeFile(path.join(OUT_DIR, 'CNAME'), `${SITE_HOST}\n`);
+  await writeFile(path.join(OUT_DIR, 'robots.txt'), renderRobots());
+  await writeFile(path.join(OUT_DIR, 'sitemap.xml'), renderSitemap(builtAt));
   await writeOgpImage(themes);
-  console.log(`\nWrote ${themes.length} themes to ${OUT_DIR}/ (index.html, theme_metadata.json, ogp.png)`);
+  console.log(`\nWrote ${themes.length} themes to ${OUT_DIR}/ (index.html, theme_metadata.json, ogp.png, CNAME, robots.txt, sitemap.xml)`);
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+// テストから import したときは実行しない。
+if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) {
+  main().catch((e) => { console.error(e); process.exit(1); });
+}
