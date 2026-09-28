@@ -275,7 +275,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "Omeka S theme for the Islam West Africa Collection, an open-access francophone digital collection at ZMO Berlin. OKLCH design tokens, light/dark mode, EN/FR, WCAG 2.1 AA.",
     "stars": 1,
-    "last_updated": "2026-09-18T14:57:11Z",
+    "last_updated": "2026-09-27T08:04:35Z",
     "theme_url": "https://raw.githubusercontent.com/fmadore/IWAC-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -475,7 +475,7 @@
     "url": "https://github.com/C-Dash/cdash-theme",
     "description": "An Omeka-S theme that supports a map interface, external map services  and a hierarchy pf Place and Document Items.",
     "stars": 0,
-    "last_updated": "2025-07-02T13:54:47Z",
+    "last_updated": "2026-09-27T02:52:33Z",
     "theme_url": "https://raw.githubusercontent.com/C-Dash/cdash-theme/main/theme.jpg",
     "has_advanced_search": false
   },
