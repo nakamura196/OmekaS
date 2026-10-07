@@ -35,7 +35,7 @@
     "url": "https://github.com/omeka-s-themes/freedom",
     "description": "An Omeka S Theme",
     "stars": 4,
-    "last_updated": "2026-09-12T02:23:53Z",
+    "last_updated": "2026-10-06T18:54:38Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/freedom/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -145,7 +145,7 @@
     "url": "https://github.com/omeka-s-themes/lively",
     "description": null,
     "stars": 2,
-    "last_updated": "2026-09-12T02:23:44Z",
+    "last_updated": "2026-10-06T18:54:35Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/lively/master/theme.jpg",
     "has_advanced_search": true
   },
@@ -255,7 +255,7 @@
     "url": "https://github.com/Omeka-External/constellations-theme",
     "description": null,
     "stars": 1,
-    "last_updated": "2026-08-19T20:59:37Z",
+    "last_updated": "2026-10-06T18:54:44Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/constellations-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -285,7 +285,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "Omeka S theme for the Islam West Africa Collection, an open-access francophone digital collection at ZMO Berlin. OKLCH design tokens, light/dark mode, EN/FR, WCAG 2.1 AA.",
     "stars": 1,
-    "last_updated": "2026-10-05T16:23:13Z",
+    "last_updated": "2026-10-06T09:39:41Z",
     "theme_url": "https://raw.githubusercontent.com/fmadore/IWAC-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -295,7 +295,7 @@
     "url": "https://github.com/Omeka-External/korematsu-theme",
     "description": null,
     "stars": 1,
-    "last_updated": "2026-08-20T23:49:42Z",
+    "last_updated": "2026-10-06T18:54:50Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/korematsu-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -555,7 +555,7 @@
     "url": "https://github.com/AM-Digital-Research-Environment/DRE-theme",
     "description": "Omeka S theme for the Africa Multiple Cluster of Excellence (University of Bayreuth) — a “Scholarly Modernism” design system on an OKLCH design-token foundation, with first-class light and dark modes.",
     "stars": 0,
-    "last_updated": "2026-10-05T13:33:15Z",
+    "last_updated": "2026-10-06T15:24:53Z",
     "theme_url": "https://raw.githubusercontent.com/AM-Digital-Research-Environment/DRE-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -575,7 +575,7 @@
     "url": "https://github.com/Omeka-External/fam-oer-theme",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-09-17T01:16:18Z",
+    "last_updated": "2026-10-06T18:54:49Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/fam-oer-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -635,7 +635,7 @@
     "url": "https://github.com/Omeka-External/gmu-cml-theme",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-08-20T19:54:26Z",
+    "last_updated": "2026-10-06T18:54:40Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/gmu-cml-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -1125,7 +1125,7 @@
     "url": "https://github.com/Omeka-External/uc-caan-theme",
     "description": null,
     "stars": 0,
-    "last_updated": "2026-08-20T23:50:35Z",
+    "last_updated": "2026-10-06T18:54:30Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/uc-caan-theme/main/theme.jpg",
     "has_advanced_search": true
   },
