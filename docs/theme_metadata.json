@@ -1,5 +1,15 @@
 [
   {
+    "name": "foundation",
+    "owner": "omeka-s-themes",
+    "url": "https://github.com/omeka-s-themes/foundation",
+    "description": "An Omeka S theme based off ZURB Foundation",
+    "stars": 8,
+    "last_updated": "2026-10-20T17:43:29Z",
+    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
     "name": "bookshelf",
     "owner": "indic-archive",
     "url": "https://github.com/indic-archive/bookshelf",
@@ -7,16 +17,6 @@
     "stars": 7,
     "last_updated": "2024-11-13T11:12:35Z",
     "theme_url": "https://raw.githubusercontent.com/indic-archive/bookshelf/master/theme.jpg",
-    "has_advanced_search": false
-  },
-  {
-    "name": "foundation",
-    "owner": "omeka-s-themes",
-    "url": "https://github.com/omeka-s-themes/foundation",
-    "description": "An Omeka S theme based off ZURB Foundation",
-    "stars": 7,
-    "last_updated": "2026-09-03T15:53:57Z",
-    "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/foundation/main/theme.jpg",
     "has_advanced_search": false
   },
   {
@@ -75,7 +75,7 @@
     "url": "https://github.com/omeka-s-themes/default",
     "description": null,
     "stars": 3,
-    "last_updated": "2026-09-03T15:50:59Z",
+    "last_updated": "2026-10-20T17:45:20Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/default/main/theme.jpg",
     "has_advanced_search": false
   },
@@ -465,7 +465,7 @@
     "url": "https://github.com/C-Dash/cdash-theme",
     "description": "An Omeka-S theme that supports a map interface, external map services  and a hierarchy pf Place and Document Items.",
     "stars": 0,
-    "last_updated": "2026-10-18T19:07:50Z",
+    "last_updated": "2026-10-20T22:31:33Z",
     "theme_url": "https://raw.githubusercontent.com/C-Dash/cdash-theme/main/theme.jpg",
     "has_advanced_search": true
   },
