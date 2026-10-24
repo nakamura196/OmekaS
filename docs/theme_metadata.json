@@ -275,7 +275,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "Omeka S theme for the Islam West Africa Collection, an open-access francophone digital collection at ZMO Berlin. OKLCH design tokens, light/dark mode, EN/FR, WCAG 2.1 AA.",
     "stars": 1,
-    "last_updated": "2026-10-21T20:31:46Z",
+    "last_updated": "2026-10-23T07:22:24Z",
     "theme_url": "https://raw.githubusercontent.com/fmadore/IWAC-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -465,7 +465,7 @@
     "url": "https://github.com/C-Dash/cdash-theme",
     "description": "An Omeka-S theme that supports a map interface, external map services  and a hierarchy pf Place and Document Items.",
     "stars": 0,
-    "last_updated": "2026-10-21T20:23:11Z",
+    "last_updated": "2026-10-23T14:51:13Z",
     "theme_url": "https://raw.githubusercontent.com/C-Dash/cdash-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -545,7 +545,7 @@
     "url": "https://github.com/AM-Digital-Research-Environment/DRE-theme",
     "description": "Omeka S theme for the Africa Multiple Cluster of Excellence (University of Bayreuth) — a “Scholarly Modernism” design system on an OKLCH design-token foundation, with first-class light and dark modes.",
     "stars": 0,
-    "last_updated": "2026-10-22T07:23:38Z",
+    "last_updated": "2026-10-23T06:55:33Z",
     "theme_url": "https://raw.githubusercontent.com/AM-Digital-Research-Environment/DRE-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -595,7 +595,7 @@
     "url": "https://github.com/fitnycdigitalinitiatives/fit-fc",
     "description": "Fashion Calendar theme for omeka-s",
     "stars": 0,
-    "last_updated": "2026-04-22T12:56:54Z",
+    "last_updated": "2026-10-23T18:34:56Z",
     "theme_url": "https://raw.githubusercontent.com/fitnycdigitalinitiatives/fit-fc/main/theme.jpg",
     "has_advanced_search": true
   },
