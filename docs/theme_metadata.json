@@ -1020,6 +1020,16 @@
     "has_advanced_search": false
   },
   {
+    "name": "RCGS-Omeka-S-Theme",
+    "owner": "fukudakz",
+    "url": "https://github.com/fukudakz/RCGS-Omeka-S-Theme",
+    "description": "RCGSコレクションのOmeka Sテーマ",
+    "stars": 0,
+    "last_updated": "2026-10-17T01:10:58Z",
+    "theme_url": null,
+    "has_advanced_search": true
+  },
+  {
     "name": "reanimated",
     "owner": "amoe",
     "url": "https://github.com/amoe/reanimated",
@@ -1087,6 +1097,16 @@
     "stars": 0,
     "last_updated": "2026-08-25T20:40:45Z",
     "theme_url": "https://raw.githubusercontent.com/omeka-s-themes/thanksroy/main/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
+    "name": "theme_cdrh",
+    "owner": "CDRH",
+    "url": "https://github.com/CDRH/theme_cdrh",
+    "description": "Omeka S base theme for CDRH projects. This is also a GitHub template that can be used to start new projects' themes.",
+    "stars": 0,
+    "last_updated": "2026-10-21T14:10:07Z",
+    "theme_url": null,
     "has_advanced_search": false
   },
   {
