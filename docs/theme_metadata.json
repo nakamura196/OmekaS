@@ -275,7 +275,7 @@
     "url": "https://github.com/fmadore/IWAC-theme",
     "description": "Omeka S theme for the Islam West Africa Collection, an open-access francophone digital collection at ZMO Berlin. OKLCH design tokens, light/dark mode, EN/FR, WCAG 2.1 AA.",
     "stars": 1,
-    "last_updated": "2026-10-26T09:51:53Z",
+    "last_updated": "2026-10-27T15:34:26Z",
     "theme_url": "https://raw.githubusercontent.com/fmadore/IWAC-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -545,7 +545,7 @@
     "url": "https://github.com/AM-Digital-Research-Environment/DRE-theme",
     "description": "Omeka S theme for the Africa Multiple Cluster of Excellence (University of Bayreuth) — a “Scholarly Modernism” design system on an OKLCH design-token foundation, with first-class light and dark modes.",
     "stars": 0,
-    "last_updated": "2026-10-26T10:47:15Z",
+    "last_updated": "2026-10-27T10:12:36Z",
     "theme_url": "https://raw.githubusercontent.com/AM-Digital-Research-Environment/DRE-theme/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -965,7 +965,7 @@
     "url": "https://github.com/MaastrichtU-Library/omekas-theme-um",
     "description": "Omeka S theme Maastricht University",
     "stars": 0,
-    "last_updated": "2026-07-07T10:00:34Z",
+    "last_updated": "2026-10-27T08:36:35Z",
     "theme_url": "https://raw.githubusercontent.com/MaastrichtU-Library/omekas-theme-um/master/theme.jpg",
     "has_advanced_search": false
   },
@@ -1105,7 +1105,7 @@
     "url": "https://github.com/CDRH/theme_cdrh",
     "description": "Omeka S base theme for CDRH projects. This is also a GitHub template that can be used to start new projects' themes.",
     "stars": 0,
-    "last_updated": "2026-10-21T14:10:07Z",
+    "last_updated": "2026-10-27T19:27:32Z",
     "theme_url": null,
     "has_advanced_search": false
   },
