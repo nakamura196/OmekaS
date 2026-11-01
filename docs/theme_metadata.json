@@ -420,6 +420,16 @@
     "has_advanced_search": false
   },
   {
+    "name": "AgileSimplifiedBaseTheme",
+    "owner": "agile-humanities",
+    "url": "https://github.com/agile-humanities/AgileSimplifiedBaseTheme",
+    "description": "A clean, responsive, drop-in Omeka-S theme intended for all Omeka-S administrators. Based on the Agile Advanced Base Theme.",
+    "stars": 0,
+    "last_updated": "2026-10-30T21:13:21Z",
+    "theme_url": "https://raw.githubusercontent.com/agile-humanities/AgileSimplifiedBaseTheme/main/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
     "name": "ahp-theme",
     "owner": "pols12",
     "url": "https://github.com/pols12/ahp-theme",
@@ -647,6 +657,16 @@
     "stars": 0,
     "last_updated": "2020-09-01T13:57:12Z",
     "theme_url": "https://raw.githubusercontent.com/Omeka-External/horses-in-medicine/horse-theme/theme.jpg",
+    "has_advanced_search": true
+  },
+  {
+    "name": "ija-omeka-s",
+    "owner": "waynegraham",
+    "url": "https://github.com/waynegraham/ija-omeka-s",
+    "description": null,
+    "stars": 0,
+    "last_updated": "2026-10-26T19:32:24Z",
+    "theme_url": null,
     "has_advanced_search": true
   },
   {
