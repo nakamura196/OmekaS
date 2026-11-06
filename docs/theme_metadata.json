@@ -475,7 +475,7 @@
     "url": "https://github.com/C-Dash/cdash-theme",
     "description": "An Omeka-S theme that supports a map interface, external map services  and a hierarchy pf Place and Document Items.",
     "stars": 0,
-    "last_updated": "2026-10-23T14:51:13Z",
+    "last_updated": "2026-11-05T17:53:50Z",
     "theme_url": "https://raw.githubusercontent.com/C-Dash/cdash-theme/main/theme.jpg",
     "has_advanced_search": true
   },
@@ -665,7 +665,7 @@
     "url": "https://github.com/waynegraham/ija-omeka-s",
     "description": "Iraqi Jewish Archive theme",
     "stars": 0,
-    "last_updated": "2026-11-03T18:48:13Z",
+    "last_updated": "2026-11-05T15:23:40Z",
     "theme_url": null,
     "has_advanced_search": true
   },
