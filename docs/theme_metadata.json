@@ -910,6 +910,26 @@
     "has_advanced_search": false
   },
   {
+    "name": "omeka-s-theme-psl",
+    "owner": "biblibre",
+    "url": "https://github.com/biblibre/omeka-s-theme-psl",
+    "description": "PSL theme for Omeka S",
+    "stars": 0,
+    "last_updated": "2022-09-28T06:05:36Z",
+    "theme_url": null,
+    "has_advanced_search": false
+  },
+  {
+    "name": "omeka-s-theme-rea-ate",
+    "owner": "ateeducacion",
+    "url": "https://github.com/ateeducacion/omeka-s-theme-rea-ate",
+    "description": "An Omeka S Theme for publising learning resources",
+    "stars": 0,
+    "last_updated": "2026-11-09T23:03:11Z",
+    "theme_url": "https://raw.githubusercontent.com/ateeducacion/omeka-s-theme-rea-ate/master/theme.jpg",
+    "has_advanced_search": true
+  },
+  {
     "name": "Omeka-S-theme-Repository-toulouse-capitole",
     "owner": "andryRaho",
     "url": "https://github.com/andryRaho/Omeka-S-theme-Repository-toulouse-capitole",
@@ -917,6 +937,16 @@
     "stars": 0,
     "last_updated": "2026-09-25T10:48:09Z",
     "theme_url": "https://raw.githubusercontent.com/andryRaho/Omeka-S-theme-Repository-toulouse-capitole/toulouse-capitole/theme.jpg",
+    "has_advanced_search": false
+  },
+  {
+    "name": "Omeka-S-theme-UniversityOregonLibrary",
+    "owner": "Daniel-KM",
+    "url": "https://github.com/Daniel-KM/Omeka-S-theme-UniversityOregonLibrary",
+    "description": "A theme for Omeka S based on the default theme",
+    "stars": 0,
+    "last_updated": "2020-09-22T21:30:38Z",
+    "theme_url": "https://raw.githubusercontent.com/Daniel-KM/Omeka-S-theme-UniversityOregonLibrary/master/theme.jpg",
     "has_advanced_search": false
   },
   {
