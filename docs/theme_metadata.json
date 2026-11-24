@@ -180,16 +180,6 @@
     "has_advanced_search": false
   },
   {
-    "name": "Omeka-S-theme-ExploreGrid",
-    "owner": "hxsllc",
-    "url": "https://github.com/hxsllc/Omeka-S-theme-ExploreGrid",
-    "description": "A responsive theme for Omeka-S v3.x with full configuration controls",
-    "stars": 2,
-    "last_updated": "2022-03-31T18:11:53Z",
-    "theme_url": "https://raw.githubusercontent.com/hxsllc/Omeka-S-theme-ExploreGrid/main/theme.jpg",
-    "has_advanced_search": false
-  },
-  {
     "name": "Omeka-S-theme-IIP",
     "owner": "hxsllc",
     "url": "https://github.com/hxsllc/Omeka-S-theme-IIP",
